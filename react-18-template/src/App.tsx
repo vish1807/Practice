@@ -1,8 +1,18 @@
 import './App.css';
+import Registration from './Registration';
+import Login from './Login';
 
 function App() {
   return (
-    <h1 className='App-header'>Hello World!</h1>
+      <div className="App">
+        <h1>Welcome to the Authentication App</h1>
+          <Registration /><br>
+          </br>
+          <br>
+          </br>
+          <Login />
+        <p>For more information, visit our documentation.</p>
+      </div>
   );
 }
 
